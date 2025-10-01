@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         PTA题目导出助手
 // @namespace    https://github.com/Free-LZJ/free-scripts
-// @version      1.3.0
+// @version      1.3.1
 // @description  导出PTA中的题目到doc文档中,注意是你已经答题过的,会把答题过的选项高亮,可以导入到微信刷题小程序(比如佛脚刷题)
 // @author       贱贱
 // @match        https://pintia.cn/problem-sets/*/exam/problems/*
