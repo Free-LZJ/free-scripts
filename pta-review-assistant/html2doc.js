@@ -31,10 +31,11 @@
             height: '60px',
         });
         document.body.appendChild(exportButton);
-        // 导出按钮
+        // 导出逻辑
         exportButton.addEventListener('click', function() {
             // 获取节点内容
-            let box = document.querySelector('#exam-app > div.pt-14.pl-16.min-h-screen.bg-bg-base > div > div.mn_Fd8vu.transition-all > div > div.flex.flex-col.m-4.mb-0.flex-1');
+            //document.querySelector("#exam-app > div.grid.grid-cols-\\[4rem\\,minmax\\(0\\,1fr\\)\\].grid-rows-\\[auto\\,minmax\\(0\\,1fr\\)\\].h-screen > div.row-start-2.row-end-3.col-start-2.col-end-3.scroll > div > div.mn_Fd8vu.transition-all > div > div.flex.flex-col.m-4.mb-0.flex-1")
+            let box = document.querySelector('#exam-app .flex.flex-col.m-4.mb-0.flex-1');
             // 最后一个子节点没用,删掉
             box.removeChild(box.lastChild);
 
