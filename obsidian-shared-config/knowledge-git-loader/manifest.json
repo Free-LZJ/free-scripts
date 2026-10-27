@@ -1,0 +1,9 @@
+{
+  "id": "knowledge-git-loader",
+  "name": "Knowledge Git Loader",
+  "version": "1.1.0",
+  "minAppVersion": "1.13.0",
+  "description": "Shared Obsidian config: load obsidian-git only in vaults listed in data.json.",
+  "author": "Free-LZJ",
+  "isDesktopOnly": true
+}

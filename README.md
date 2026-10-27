@@ -4,7 +4,7 @@
 * pta-review-assistant PTA题目导出助手
 * xmut-gxb 高校邦挂机刷课脚本
 * CC-xxgs 学习公社刷课脚本
-* obsidian-git-sync Obsidian 知识库的 Git 同步规则 + 一键安装脚本
+* obsidian-shared-config 多个 Obsidian 仓库共享一份配置（Junction + 围栏插件 + 自动备份）
 
 > 我的GreasyFork主页: https://greasyfork.org/zh-CN/users/1292680-free-lzj
 > 可以直接安装到油猴
