@@ -1,0 +1,5 @@
+# 保证跨平台 checkout 后脚本仍可执行：
+# .sh 必须在 Unix 上保持 LF，否则 Git Bash / Linux 会报 $'\r': command not found
+*.sh text eol=lf
+*.ps1 text eol=crlf
+README.md text eol=lf
